@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "averta cy w10";
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+@layer components {
+  .special-text {
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+  }
+
+  .h-inherit {
+    height: inherit;
+  }
+
+  .hover-text:hover {
+    color: #000;
+    transition: 0.3s ease-in-out;
+  }
+
+  .fleftelm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+  }
+}
