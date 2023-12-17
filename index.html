@@ -15,7 +15,7 @@
     <!-- Recommended -->
   </head>
   <body>
-    <div id="main" class="w-full bg-white">
+    <div id="main" class="w-full">
       <div id="home" class="min-h-screen w-full">
         <div
           id="nav"
@@ -138,11 +138,21 @@
           </div>
         </div>
         <div id="buttondiv" class="flex items-center justify-center">
-          <button
-            class="py-[1.5vw] px-[3vw] rounded-full border border-gray-300 text-[1.3vw] font-medium tracking-[-1px]"
-          >
-            View all products
-          </button>
+          <a href="#_" class="relative inline-block text-lg group">
+            <span
+              class="relative z-10 block py-[1.5vw] px-[3vw] overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border border-gray-300 rounded-full group-hover:text-white"
+            >
+              <span
+                class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"
+              ></span>
+              <span
+                class="absolute left-0 w-96 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-16 bg-gray-900 group-hover:-rotate-180 ease"
+              ></span>
+              <span class="relative text-[1.3vw] font-medium tracking-[-1px]"
+                >View all products</span
+              >
+            </span>
+          </a>
         </div>
       </div>
       <div id="dev" class="w-full px-[15vw] py-[5vw]">

@@ -1,6 +1,6 @@
 Shery.mouseFollower();
 
-Shery.makeMagnet(".magnet");
+Shery.makeMagnet("#magnet");
 
 Shery.hoverWithMediaCircle(".hover-text", {
   videos: ["./assets/0.mp4", "./assets/2.mp4", "./assets/3.mp4"],
